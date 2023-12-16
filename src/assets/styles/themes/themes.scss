@@ -1,0 +1,25 @@
+@import './theme-blue.scss';
+@import './theme-indigo.scss';
+@import './theme-purple.scss';
+@import './theme-pink.scss';
+@import './theme-red.scss';
+@import './theme-orange.scss';
+@import './theme-yellow.scss';
+@import './theme-green.scss';
+@import './theme-teal.scss';
+@import './theme-cyan.scss';
+
+// @import './primary.scss'
+
+.theme-dont-use{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+}
