@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero > p,
+.hero > div {
+  padding: 20px;
+  margin: 20px;
+}

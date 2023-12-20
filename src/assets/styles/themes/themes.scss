@@ -9,17 +9,17 @@
 @import './theme-teal.scss';
 @import './theme-cyan.scss';
 
-// @import './primary.scss'
-
-.theme-dont-use{
-    --bs-blue: #0d6efd;
-    --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
-    --bs-red: #dc3545;
-    --bs-orange: #fd7e14;
-    --bs-yellow: #ffc107;
-    --bs-green: #198754;
-    --bs-teal: #20c997;
-    --bs-cyan: #0dcaf0;
-}
+:root,
+[data-bs-theme=light]{
+    --bs-main: #0d6efd;
+    --bs-main-rgb: 13, 110, 253;
+    --bs-main-text-emphasis: #052c65;
+    --bs-main-bg-subtle: #cfe2ff;
+    --bs-main-border-subtle: #9ec5fe;
+    --bs-focus-ring-color: rgba(13, 110, 253, 0.25);
+  }
+  [data-bs-theme=dark]{
+    --bs-main-text-emphasis: #6ea8fe;
+    --bs-main-bg-subtle: #031633;
+    --bs-main-border-subtle: #084298;
+  }

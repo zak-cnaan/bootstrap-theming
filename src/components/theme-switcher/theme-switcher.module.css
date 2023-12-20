@@ -1,0 +1,80 @@
+.navigator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px -1px 4px var(--bs-body-color);
+}
+.navigator ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigator ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 8px;
+  width: 100%;
+
+  color: var(--bs-body-color);
+  background-color: var(--bs-secondary-bg);
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:focus {
+  outline: 1px auto -webkit-focus-ring-color;
+}
+
+.btn-theme-blue {
+  background: var(--bs-blue);
+}
+.btn-theme-indigo {
+  background: var(--bs-indigo);
+}
+.btn-theme-purple {
+  background: var(--bs-purple);
+}
+.btn-theme-pink {
+  background: var(--bs-pink);
+}
+.btn-theme-red {
+  background: var(--bs-red);
+}
+.btn-theme-orange {
+  background: var(--bs-orange);
+}
+.btn-theme-yellow {
+  background: var(--bs-yellow);
+}
+.btn-theme-green {
+  background: var(--bs-green);
+}
+.btn-theme-teal {
+  background: var(--bs-teal);
+}
+.btn-theme-cyan {
+  background: var(--bs-cyan);
+}
+
+.btn {
+  color: var(--bs-white);
+}
+.btn-theme-orange,
+.btn-theme-yellow,
+.btn-theme-teal,
+.btn-theme-cyan {
+  color: var(--bs-black);
+}
+.btn.normal {
+  color: var(--bs-body-color);
+}

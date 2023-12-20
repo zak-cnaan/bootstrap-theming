@@ -1,0 +1,18 @@
+// ROOT:
+// :root {
+//   font-size: 62.5%;
+//   line-height: 1.4;
+// }
+
+:root {
+  --bs-body-font-size: 16px;
+  --bs-body-line-height: 1.4;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: scroll;
+  overflow-x: hidden;
+}
